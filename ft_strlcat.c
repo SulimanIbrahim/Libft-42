@@ -6,7 +6,7 @@
 /*   By: suibrahi <suibrahi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/04 02:26:13 by suibrahi          #+#    #+#             */
-/*   Updated: 2023/08/06 07:50:51 by suibrahi         ###   ########.fr       */
+/*   Updated: 2023/08/08 23:28:35 by suibrahi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,4 +33,10 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	}
 	dst[lendest] = '\0';
 	return (ft_strlen(dst) + ft_strlen(&src[len]));
+}
+int main()
+{
+	char sre[]="ali ";
+	char dst[]="ahmed";
+	printf("%s", ft_strlcat())
 }
